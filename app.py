@@ -37,6 +37,16 @@ def build_resume_html():
     </body>
     </html>
     """
+<h3>Skills</h3>
+<ul>
+  {''.join(f"<li>{skill.strip()}</li>" for skill in skills.split(','))}
+</ul>
+
+<h3>Projects</h3>
+<p>{projects}</p>
+
+<h3>Certifications</h3>
+<p>{certifications}</p>
 
 # --- Convert HTML to PDF ---
 def convert_html_to_pdf(source_html):
