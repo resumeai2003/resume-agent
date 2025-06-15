@@ -16,7 +16,9 @@ summary = st.text_area("Professional Summary")
 skills = st.text_area("Skills (comma separated)")
 experience = st.text_area("Work Experience")
 education = st.text_area("Education")
-
+skills = st.text_area("Skills (comma-separated)")
+projects = st.text_area("Projects")
+certifications = st.text_area("Certifications")
 # --- Create Resume HTML ---
 def build_resume_html():
     return f"""
