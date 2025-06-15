@@ -59,4 +59,4 @@ if st.button("Generate Resume"):
             st.error("Error generating PDF.")
     else:
         st.warning("Please enter at least your name and email.")
-Added main app code
+
